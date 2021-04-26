@@ -81,3 +81,18 @@ body {
   h4 {
       text-align: center;
   }
+
+  #intro{
+    background-color: lightGray;
+    font-family: verdana;
+    width: 200px;
+  }
+
+  #video {
+    display: none;
+  }
+
+ #vidButton{
+   margin: 30px;
+   text-align: center;
+ }
