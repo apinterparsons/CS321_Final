@@ -2,10 +2,17 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery-plugin.js"></script>
     <title>CS321 Final</title>
 </head>
 
 <body>
+    
+    <button id="name" onclick="$('#intro').hello()">Name & Instructions</button>
+    <br>
+    <div id="intro"></div>
+    
     <h1>Guess the color!</h1>
     <h4>Using RGB values</h4>
     <div id="colorBox"></div>
@@ -21,15 +28,16 @@
     </div>
     <h2 id="answer"></h2>
 
-    <div id="reset"><button id="resetButton">Reset game</button></div>
+    <div id="reset"><button id="resetButton" onclick="restart()">Reset Game</button></div>
     <br><br>
     <div id="colorBox"></div>
     <br><br>
 
     <h3>How do RGB values work?</h3>
-    <iframe id="RGBVideo" width="420" height="315"
+    <div id="vidButton"><button onclick="showVid()">Show Video</button></div>
+    <div id="video"><iframe id="RGBVideo" width="420" height="315"
     src="https://www.youtube.com/embed/hhI4x6hx21s">
-    </iframe>
+    </iframe></div>
 
     <script src="script.js"></script>
 </body>
