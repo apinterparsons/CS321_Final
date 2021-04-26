@@ -10,6 +10,10 @@ Resources:
 
 -Math in JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
+-Using a reset button to restart the game: https://www.w3schools.com/jsref/met_loc_reload.asp
+
+-Creating a JQuery plugin: https://www.ostraining.com/blog/coding/custom-jquery-plugin/
+
 
 
 
