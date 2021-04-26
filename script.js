@@ -37,5 +37,18 @@ function startGame(){
     }
 }
 
-document.getElementById('resetButton').addEventListener('click', startGame);
-startGame();
+function restart(){
+  location.reload();
+  return false;
+}
+
+function showVid() {
+  var x = document.getElementById("video");
+  if(x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
